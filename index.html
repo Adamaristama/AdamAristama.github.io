@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodes : Koperasi UMKM Desa Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="asset/logofix.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">BERANDA</a></li>
+                    <li><a href="#">PRODUK</a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="contact.html">TENTANG KAMI</a></li>
+                    <li><a href="login.html" class="login-btn">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Koperasi UMKM Desa Berbasis Digital</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas explicabo esse,<br> dolorum natus consectetur?</p>
+            <a href="" class="core-btn">Pelajari Lebih Lanjut Tentang Kami</a>
+        </div>
+    </section>
+
+
+    <!-- Produk -->
+
+    <section class="produk">
+        <h1>Produk Kami</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="produk-col" >
+                <a href=""><img src="asset/icon_KSP.png" alt="KODES KSP" style="width:42px;height:42px;"></a>
+                <h3>KODES KSP</h3>
+                <p>Skema Kodes Untuk Koperasi Simpan Pinjam</p>
+            </div>
+            <div class="produk-col">
+                <a href=""><img src="asset/icon_KSPPS.png" alt="KODES KSP" style="width:42px;height:42px;"></a>
+                <h3>KODES KSPPS</h3>
+                <p>Skema Kodes untuk Koperasi Simpan Pinjam Pembiayaan Syairah</p>
+            </div>
+            <div class="produk-col">
+                <a href=""><img src="asset/icon_KSU.png" alt="KODES KSP" style="width:42px;height:42px;"></a>
+                <h3>KODES KSU</h3>
+                <p>Skema kodes Untuk Koperasi UMKM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- fitur -->
+
+    <section class="bgfitur">
+        <div class="fitur ">
+        <h1>Fitur Dari Kodes.id</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et natus pariatur quae fugiat hic rerum eum, cum debitis distinctio!</p>
+
+        <div class="row">
+            <div class="fitur-col-left ">
+                <img src="asset/image_fitur_2.png"> 
+                
+            </div>
+            <div class="fitur-col-right">
+                <h3>Fitur Laporan</h3>
+                <P>Pada fitur ini dapat menghasilkan dan mencetak <br> laporan keuangan seperti: </P>
+                <ul>
+                    <li>Laporan Buku Besar</li>
+                    <li>Laporan Arus Kas</li>
+                    <li>Laporan Simpanan</li>
+                    <li>Laporan Pinjaman</li>
+                    <li>Laporan Jurnal Harian</li>
+                    <li>Laporan Neraca</li>
+                    <li>Laporan Neraca Saldo</li>
+                </ul>
+                <a href="fitur.html" class="core-btn">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- Hubungi kami -->
+<section class="cta">
+    <h1>Hubungi Kami Jika Ingin Bergabung Menjadi<br> Keluarga Kodes Indonesia</h1>
+    <a href="contact.html" class="core-btn">Hubungi Kami</a>
+</section>
+
+<!-- footer -->
+<section class="footer">
+    <h4>Tentang Kami</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi doloremque ipsum odio autem,<br> error quia porro quam modi repellat, et explicabo ad dicta cumque totam.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+<section class="cr">
+    <h4> @ Copyright 2021 - Adam. ALL Right reserved.</h4>
+</section>
+
+    <!-- Toogle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>

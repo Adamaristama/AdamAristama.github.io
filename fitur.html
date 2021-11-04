@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodes : Koperasi UMKM Desa Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="asset/logofix.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">BERANDA</a></li>
+                    <li><a href="#">PRODUK</a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="contact.html">TENTANG KAMI</a></li>
+                    <li><a href="login.html" class="login-btn">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Fitur Dari Koperasi UMKM Desa Digital</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas explicabo esse,<br> dolorum natus consectetur?</p>
+        </div>
+    </section>
+
+    <section class="fiturwebpage">
+        <div class="fiturmain">
+            <div class="row1">
+                <div class="fiturm-col-left">
+                    <img src="asset/image_fitur_3.png">
+                </div>
+                <div class="fiturm-col-right">
+                    <h3>Fitur Data Master</h3>
+                    <P>Dapat mencatat dan mengarsipkan database secara maksimal. Seperti:</P>
+                    <ul>
+                        <li>Data Identitas Koperasi</li>
+                        <li>Data Anggota</li>
+                        <li>Data Non Anggota</li>
+                        <li>Data Pengurus</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="fiturm-col-left">
+                    <img src="asset/image_fitur_2.png">
+                </div>
+                <div class="fiturm-col-right">
+                    <h3>Fitur Laporan</h3>
+                    <P>Pada fitur ini dapat menghasilkan dan mencetak <br> laporan keuangan seperti: </P>
+                    <ul>
+                        <li>Laporan Buku Besar</li>
+                        <li>Laporan Arus Kas</li>
+                        <li>Laporan Simpanan</li>
+                        <li>Laporan Pinjaman</li>
+                        <li>Laporan Jurnal Harian</li>
+                        <li>Laporan Neraca</li>
+                        <li>Laporan Neraca Saldo</li>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="fiturm-col-left">
+                    <img src="asset/image_fitur_4.png">
+                </div>
+                <div class="fiturm-col-right">
+                    <h3>Fitur Pinjaman Anggota</h3>
+                    <P> dapat mengelola dan mencatat daftar laporan keuangan seperti: pinjaman anggota,<br> informasi jatuh tempo hingga rekap cicilan per anggota </P>
+                    <ul>
+                        <li>Laporan Buku Besar</li>
+                        <li>Laporan Arus Kas</li>
+                        <li>Laporan Simpanan</li>
+                        <li>Laporan Pinjaman</li>
+                        <li>Laporan Jurnal Harian</li>
+                        <li>Laporan Neraca</li>
+                        <li>Laporan Neraca Saldo</li>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+
+    
+
+
+<!-- footer -->
+<section class="footer">
+    <h4>Tentang Kami</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi doloremque ipsum odio autem,<br> error quia porro quam modi repellat, et explicabo ad dicta cumque totam.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+<section class="cr">
+    <h4> @ Copyright 2021 - Adam. ALL Right reserved.</h4>
+</section>
+
+    <!-- Toogle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>

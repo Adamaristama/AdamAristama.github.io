@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodes : Koperasi UMKM Desa Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="asset/logofix.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">BERANDA</a></li>
+                    <li><a href="#">PRODUK</a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="contact.html">TENTANG KAMI</a></li>
+                    <li><a href="login.html" class="login-btn">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Tentang Kami</h1>
+            
+        </div>
+    </section>
+
+<section class="loc">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2037290221406!2d106.84844491434212!3d-6.367675364061634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec6fac1d2609%3A0x78a1354db9b333d!2sJl.%20Utama%2C%20Tugu%2C%20Kec.%20Cimanggis%2C%20Kota%20Depok%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1635995725706!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="tentang-kami">
+    <div class="row">
+        <div class="tentang-col">
+            <div>
+                <i class="fas fa-home"></i>
+                <span>
+                <h5>Jl. Utama, XYZ Building</h5>
+                <p>Depok, Jawa Barat, ID</p>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-mobile-alt"></i>
+                <span>
+                <h5>+62 08953396xxxx</h5>
+                <p>Senin - Minggu, 09.00 WIB - 17.00 WIB</p>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <span>
+                <h5>info@kodes.com</h5>
+                <p>untuk informasi lebih lanjut email kami</p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer -->
+<section class="footer">
+    <h4>Tentang Kami</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi doloremque ipsum odio autem,<br> error quia porro quam modi repellat, et explicabo ad dicta cumque totam.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+<section class="cr">
+    <h4> @ Copyright 2021 - Adam. ALL Right reserved.</h4>
+</section>
+
+    <!-- Toogle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
